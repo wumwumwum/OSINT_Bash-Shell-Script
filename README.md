@@ -44,23 +44,7 @@ Test shell run:
 ``nameofshell.sh``
 
 # Content of Script
-Maigret
-``maigret <username>``
-
-Holehe
-``holehe <email@email.com>``
-
-Sherlock
-``sherlock <username>``
-
-Toutatis
-``toutatis -s <SessionId> -u <username>``
-
-Ignorant
-``ignorant 1 <phonenumber>``
-
-theHarvester
-``uv run theHarvester -d <domain>``
+Accessible [here](https://github.com/wumwumwum/OSINT_Bash-Shell-Script/blob/main/osint.sh)
 
 # Tools Installed and Available in Script
 Maigret
@@ -83,3 +67,17 @@ theHarvester
 ``git clone https://github.com/laramies/theHarvester
 cd theHarvester``
 ``uv sync``
+
+mrHolmes
+``git clone https://github.com/Lucksi/Mr.Holmes
+sudo apt-get update
+cd Mr.Holmes
+python3 -m venv .lib_venv
+sudo chmod +x install.sh
+sudo bash install.sh
+source .lib_venv/bin/activate
+pip3 install -r requirements.txt
+python3 MrHolmes.py``
+
+user-scanner
+``pipx install user-scanner``
