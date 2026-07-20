@@ -81,3 +81,6 @@ python3 MrHolmes.py``
 
 user-scanner
 ``pipx install user-scanner``
+
+social-analyzer
+``pipx install social-analyzer``
